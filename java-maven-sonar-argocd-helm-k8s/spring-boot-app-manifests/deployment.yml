@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: spoorthipm/my-maven-java21-docker-agent:latest
+        image: spoorthipm/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
