@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: spoorthipm/ultimate-cicd:13
+        image: spoorthipm/ultimate-cicd:18
         ports:
         - containerPort: 8080
